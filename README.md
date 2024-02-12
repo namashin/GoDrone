@@ -34,6 +34,7 @@ Follow these steps to build, run, configure, and use the Go Tello Drone Controll
 # Navigate to the project directory
 ```bash
 cd go-tello
+go mod tidy
 ```
 # Build the project
 ```bash
