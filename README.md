@@ -57,3 +57,9 @@ The application can be configured via the `config.ini` file located in the root 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
+
+## PDF Manual
+
+For detailed instructions on usage and configuration, refer to the attached PDF.
+- [Tello SDK 2.0 User Guide](https://github.com/namashin/go-tello/blob/master/Tello%20SDK%202.0%20User%20Guide.pdf).
+
