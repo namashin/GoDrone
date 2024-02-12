@@ -2,6 +2,8 @@
 
 This is a web application for controlling a Tello drone. It provides a user-friendly interface for sending commands to the drone and streaming video from it.
 
+![Tello](example.gif)
+
 ## Features
 
 - **Remote Controller**: Control the Tello drone remotely through a web browser.
