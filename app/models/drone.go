@@ -95,7 +95,6 @@ func (dm *DroneManager) StreamVideo() {
 				log.Println(err)
 			}
 
-			// to img
 			img, _ := gocv.NewMatFromBytes(FrameX, FrameY, gocv.MatTypeCV8UC3, buf)
 			if img.Empty() {
 				continue

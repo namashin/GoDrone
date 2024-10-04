@@ -45,14 +45,12 @@ var apiValidPath = regexp.MustCompile("^/api/(command|video)")
 func apiMakeHandler(fn func(ctx *gin.Context)) gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		matches := apiValidPath.FindStringSubmatch(ctx.Request.URL.Path)
-		if len(matches) == 0 {
+		if len(matches) <= 0 {
 			ctx.JSON(http.StatusNotFound, gin.H{"error": "invalid path"})
 			return
 		}
 
-		// next flow
 		ctx.Next()
-
 		fn(ctx)
 	}
 }

@@ -6,6 +6,5 @@ import (
 )
 
 func main() {
-	err := controllers.StartWebServer()
-	log.Fatal(err)
+	log.Fatal(controllers.StartWebServer())
 }
